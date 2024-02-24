@@ -55,16 +55,15 @@ def get_recent_stock_news(company_name):
 
 def analyze(query):
 
-    search = DuckDuckGoSearchRun()
 
 
     ls = [
 
-    Tool(
-        name="DuckDuckGo Search",
-        func=search.run,
-        description="Use only for NSE/BSE stock ticker or recent stock-related news."
-    ),
+    #Tool(
+      #  name="DuckDuckGo Search",
+       # func=search.run,
+        #description="Use only for NSE/BSE stock ticker or recent stock-related news."
+    #),
     Tool(
         name="get recent news",
         func=get_recent_stock_news,
