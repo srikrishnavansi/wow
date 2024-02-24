@@ -5,4 +5,4 @@ langchain
 langchain-google-genai
 streamlit
 streamlit_chat
-
+google-api-python-client>=2.100.0
