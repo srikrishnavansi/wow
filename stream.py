@@ -4,7 +4,6 @@ from langchain.agents import AgentType, initialize_agent, load_tools
 from bs4 import BeautifulSoup
 from langchain.tools import DuckDuckGoSearchRun
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
-from flask import Flask, request, jsonify
 import os
 import requests
 import re
