@@ -137,7 +137,8 @@ Summarize the recommendation and provide any final thoughts or suggestions for t
 
 Please make sure to give in a Concise and perfect answer as a response from all the three respones.
 Note:
-if user asks the general question like greetings then you do not need to do analysis and answer the question by yourselfand if they ask common questions like how we assist or what we offer then elevate our services and remember that you have access to the real time data and access to the internet and you information should up to date
+if user asks the general question like greetings then you do not need to do analysis and answer the question by yourself without using any functions and tools
+and if they ask common questions like how we assist or what we offer then elevate our services and remember that you have access to the real time data and access to the internet and you information should up to date
 Query:"""
 
     tools = load_tools(["google-search"], llm=llm)+ls
