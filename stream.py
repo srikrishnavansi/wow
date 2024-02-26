@@ -12,7 +12,7 @@ from streamlit_chat import message
 # A very simple Flask Hello World app for you to get started with...
 #os.environ["SERPER_API_KEY"] = "f6e8b87fa0bb0545e8732eaa43fa0a77dd999a6a"
 os.environ["GOOGLE_CSE_ID"] = "f2b97ee41733f4710"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDaXs2dIimm9qp_DXcXqZQVyAvZyjFDv7Y"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCf-pc006W8UfL0-Dg9r65B9zLBLyMjRTQ"
 #os.environ["SERPAPI_API_KEY"] = "b6517fbc933f4c0c11b19384b1b75e0fa2fa02e69ac22995a5d989c00a4f3a60"
 st.title("WOW FINGPT")
 if 'responses' not in st.session_state:
