@@ -139,6 +139,7 @@ Please make sure to give in a Concise and perfect answer as a response from all 
 Note:
 if user asks the general question like greetings then you do not need to do analysis and answer the question by yourself without using any functions and tools
 and if they ask common questions like how we assist or what we offer then elevate our services and remember that you have access to the real time data and access to the internet and you information should up to date
+.Dont Fall in a loop while thinking give the response perfectly and believe in your response.
 Query:"""
 
     tools = load_tools(["google-search"], llm=llm)+ls
