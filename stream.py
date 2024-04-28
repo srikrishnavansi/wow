@@ -9,7 +9,6 @@ import requests
 import re
 import streamlit as st
 from streamlit_chat import message
-# A very simple Flask Hello World app for you to get started with...
 #os.environ["SERPER_API_KEY"] = "f6e8b87fa0bb0545e8732eaa43fa0a77dd999a6a"
 os.environ["GOOGLE_CSE_ID"] = "f2b97ee41733f4710"
 os.environ["GOOGLE_API_KEY"] = "AIzaSyCf-pc006W8UfL0-Dg9r65B9zLBLyMjRTQ"
