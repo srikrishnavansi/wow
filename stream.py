@@ -9,10 +9,10 @@ import requests
 import re
 import streamlit as st
 from streamlit_chat import message
-#os.environ["SERPER_API_KEY"] = "f6e8b87fa0bb0545e8732eaa43fa0a77dd999a6a"
+#os.environ["SERPER_API_KEY"] = ""
 os.environ["GOOGLE_CSE_ID"] = ""
 os.environ["GOOGLE_API_KEY"] = ""
-#os.environ["SERPAPI_API_KEY"] = "b6517fbc933f4c0c11b19384b1b75e0fa2fa02e69ac22995a5d989c00a4f3a60"
+#os.environ["SERPAPI_API_KEY"] = ""
 st.title("WOW FINGPT")
 if 'responses' not in st.session_state:
     st.session_state['responses'] = ["How can I assist you?"]
