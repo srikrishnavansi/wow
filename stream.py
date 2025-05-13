@@ -10,8 +10,8 @@ import re
 import streamlit as st
 from streamlit_chat import message
 #os.environ["SERPER_API_KEY"] = "f6e8b87fa0bb0545e8732eaa43fa0a77dd999a6a"
-os.environ["GOOGLE_CSE_ID"] = "f2b97ee41733f4710"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCf-pc006W8UfL0-Dg9r65B9zLBLyMjRTQ"
+os.environ["GOOGLE_CSE_ID"] = ""
+os.environ["GOOGLE_API_KEY"] = ""
 #os.environ["SERPAPI_API_KEY"] = "b6517fbc933f4c0c11b19384b1b75e0fa2fa02e69ac22995a5d989c00a4f3a60"
 st.title("WOW FINGPT")
 if 'responses' not in st.session_state:
@@ -71,7 +71,7 @@ def analyze(query):
     )
 ]
 
-    llm =GoogleGenerativeAI(model="gemini-pro")
+    llm =GoogleGenerativeAI(model="gemini-1.5-flash")
     sys_msg="""As a trading expert and intelligence member of the market, your task is to analyze stocks/companies based on user queries. You are to provide insights using:
 
 Fundamental Analysis: Evaluate the company's financial health, market position, competitive advantage, revenue, profit margins, and other key financial ratios. Consider recent earnings reports, management effectiveness, industry conditions, and future growth prospects.
